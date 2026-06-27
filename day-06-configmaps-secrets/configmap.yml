@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  db_host: "postgres-service"
+  db_port: "5432"
+  app_port: "3000"
+  log_level: "info"
+  feature_dark_mode: "true"
